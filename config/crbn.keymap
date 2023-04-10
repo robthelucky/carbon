@@ -46,7 +46,7 @@
 				&kp TAB  &kp Q    &kp W &kp E &kp R &kp T  &kp Y   &kp U  &kp I    &kp O   &kp P    &kp BSPC
 				&kp ESC  &kp A    &kp S &kp D &kp F &zed_zero_kay  &kp H   &kp LEFT  &kp RIGHT    &zed_em_kay   &kp SEMI &kp SQT
 				&kp LSHFT &kp Z    &kp X &kp C &bt BT_CLR &kp N0 &kp N1 &kp RIGHT &kp LEFT &kp N1 &kp SLASH &kp RET
-				&trans   &kp LCTL &kp LALT &kp LGUI &mo 1 &kp SPACE &trans &mo 2 &kp LEFT &kp DOWN &kp UP &kp RIGHT
+				&trans   &kp LCTRL &kp LALT &kp LGUI &mo 1 &kp SPACE &trans &mo 2 &kp LEFT &kp DOWN &kp UP &kp RIGHT
 			>;
 
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -76,7 +76,7 @@
 
 		control {
 			bindings = <
-				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans
+				&sys_reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans
 				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
